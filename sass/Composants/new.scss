@@ -1,0 +1,10 @@
+.new::before{
+    background-color:$vert-claire;
+    color: #1c9c7c;
+    display: grid;
+    content: "Nouveau";
+    position: absolute;
+    padding: 5px;
+    right: 10px;
+    top: 10px;
+}

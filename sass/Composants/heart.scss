@@ -1,0 +1,12 @@
+.fa-heart{position: absolute;
+    font-size: 25px;
+    right: 20px;
+    top: 175px;
+}
+.fa-heart:hover{background-clip: text;
+       background-image: linear-gradient( $rose,$violet);
+       transition: 500s;
+}
+span{
+    color: transparent;
+}

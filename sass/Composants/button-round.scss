@@ -1,0 +1,17 @@
+@import "../utils/box-shadow.scss";
+@import"../utils/colors.scss";
+
+
+.round {margin: 10px 0px;
+    background-image:linear-gradient( $rose,$violet) ;
+    border-radius: 200px;
+    padding: 20px 40px;
+    color: white;
+    border: none;
+    @include shadow;
+    font-size: medium;
+    font-weight: 500;
+    &:hover{
+        @include hover ;
+    }
+ }

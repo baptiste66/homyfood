@@ -1,13 +1,244 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
+* {
+  box-sizing: border-box;
+  object-fit: cover;
+}
 
-*{
-    box-sizing: border-box;
+main {
+  font-family: "Roboto", sans-serif;
 }
+
+body {
+  margin: 0px;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+.logo {
+  font-family: "Shrikhand", cursive;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 header {
-   text-align: center;
-   margin-top: 10px ;
-   box-shadow: 0px 5px 3px 1px rgb(192, 188, 188);
+  text-align: center;
+  margin-top: 15px;
+  box-shadow: 0px 5px 3px 1px rgb(207, 207, 207);
+  position: relative;
 }
-body{
-margin: 0px;
+header img {
+  padding-bottom: 10px;
+  width: 45%;
+  height: 50%;
+  max-width: 300px;
 }
+
+.position {
+  display: flex;
+  padding: 1px;
+  background-color: rgb(234, 234, 234);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.position i {
+  padding-right: 20px;
+  font-weight: bolder;
+  font-size: x-large;
+}
+.position p {
+  font-weight: 300;
+  font-size: larger;
+}
+
+.reservez {
+  padding: 1px;
+  background-color: rgb(246, 246, 246);
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.round {
+  margin: 10px 0px;
+  background-image: linear-gradient(#FF79DA, #9356DC);
+  border-radius: 200px;
+  padding: 20px 40px;
+  color: white;
+  border: none;
+  box-shadow: 0px 5px 3px 2px rgb(207, 207, 207);
+  font-size: medium;
+  font-weight: 500;
+}
+.round:hover {
+  opacity: 70%;
+  box-shadow: 0px 5px 3px 2px rgb(114, 114, 114);
+  transition: 800ms;
+  scale: 1.03;
+}
+
+.fonctionnement {
+  margin-top: 50px;
+  padding-bottom: 60px;
+}
+
+.all-menu {
+  display: flex;
+  flex-direction: column;
+}
+.all-menu .step {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.all-menu .step span {
+  display: flex;
+  margin-left: -10px;
+  background-color: #9356DC;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.all-menu .step div:hover {
+  opacity: 70%;
+  box-shadow: 0px 5px 3px 2px rgb(114, 114, 114);
+  transition: 800ms;
+  scale: 1.03;
+  background-color: white;
+}
+.all-menu .step .detail-menu {
+  display: flex;
+  width: 80%;
+  height: 70px;
+  margin-bottom: 20px;
+  background-color: rgb(246, 246, 246);
+  border-radius: 200px;
+  text-align: center;
+  justify-content: left;
+  align-items: center;
+  list-style-type: none;
+  box-shadow: 0px 5px 3px 2px rgb(207, 207, 207);
+}
+.all-menu .step .detail-menu i {
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.fa-heart {
+  position: absolute;
+  font-size: 25px;
+  right: 20px;
+  top: 175px;
+}
+
+.fa-heart:hover {
+  background-clip: text;
+  background-image: linear-gradient(#FF79DA, #9356DC);
+  transition: 500s;
+}
+
+span {
+  color: transparent;
+}
+
+.new::before {
+  background-color: #99E2D0;
+  color: #1c9c7c;
+  display: grid;
+  content: "Nouveau";
+  position: absolute;
+  padding: 5px;
+  right: 10px;
+  top: 10px;
+}
+
+.restaurants {
+  background-color: rgb(246, 246, 246);
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+.restaurants .restaurants__card {
+  margin: 0px 20px;
+  gap: 50px;
+  display: grid;
+}
+@media (min-width: 767px) {
+  .restaurants .restaurants__card {
+    grid-template-columns: repeat(2, 45%);
+    justify-content: center;
+  }
+}
+.restaurants .restaurants__card a {
+  box-shadow: 0px 5px 3px 2px rgb(207, 207, 207);
+}
+.restaurants .restaurants__card a:hover {
+  opacity: 70%;
+  box-shadow: 0px 5px 3px 2px rgb(114, 114, 114);
+  transition: 800ms;
+  scale: 1.03;
+}
+.restaurants .restaurants__card .card {
+  position: relative;
+  border-radius: 20px;
+}
+.restaurants .restaurants__card .card img {
+  width: 100%;
+  height: 150px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.restaurants .restaurants__card .card .card__description {
+  margin-left: 15px;
+}
+.restaurants .restaurants__card .card .card__description h3 {
+  margin-top: 10px;
+}
+.restaurants .restaurants__card .card .card__description p {
+  margin-top: -15px;
+}
+
+footer {
+  background-color: black;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+footer .logo {
+  margin-left: 0px;
+  font-size: medium;
+}
+footer a {
+  color: white;
+  display: block;
+  padding-left: 20px;
+}
+footer .fin a {
+  margin-top: 5px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer .fa-utensils {
+  padding-right: 15px;
+}
+footer .fa-handshake-angle {
+  padding-right: 9px;
+}
+@media (min-width: 990px) {
+  footer .fin {
+    display: grid;
+    grid-template-columns: repeat(4, 22%);
+    justify-content: center;
+    flex-wrap: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
