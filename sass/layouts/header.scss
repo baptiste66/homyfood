@@ -1,0 +1,17 @@
+@import"../utils/mixin.scss";
+.header-restaurant{display: flex;
+  @include center;
+position: relative;
+    img{margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      @include center;
+      padding-bottom: 10px;
+ width: 45%;
+ height: 100%;
+ max-width: 300px;
+ }
+i{margin-left: 40px;
+  font-size:x-large;
+}
+}

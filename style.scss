@@ -1,12 +1,13 @@
 @import "./sass/base/base.scss";
 @import "./sass/layouts/header-accueil.scss";
-@import "./sass/pages/position.scss";
 @import "./sass/Composants/button-round.scss";
-@import "./sass/pages/Fonctionnement.scss";
-@import "./sass/utils/box-shadow.scss";
-@import "./sass/pages/restaurants.scss";
+@import "./sass/pages/accueil.scss";
+@import "./sass/utils/mixin.scss";
 @import"./sass/layouts/footer.scss";
-@import"./sass/Composants/case";
+@import"./sass/layouts/case-accueil-fonctionnement";
+@import"./sass/pages/restaurant.scss";
+@import"./sass/layouts/case-restaurant.scss";
+@import"./sass/layouts/header.scss";
 
 
 
