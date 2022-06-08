@@ -1,17 +1,23 @@
 @import"../utils/mixin.scss";
 .header-restaurant{display: flex;
-  @include center;
-position: relative;
-    img{margin-top: 20px;
+   
+  .header-site{@include center;
       margin-left: auto;
       margin-right: auto;
-      @include center;
-      padding-bottom: 10px;
- width: 45%;
+      img{
+ width: 100%;
  height: 100%;
- max-width: 300px;
- }
-i{margin-left: 40px;
-  font-size:x-large;
+ max-width: 200px;
+ cursor: pointer;
+ margin-top: 20px;
 }
+
+ }
+i{display: flex;
+  font-size:x-large;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
 }

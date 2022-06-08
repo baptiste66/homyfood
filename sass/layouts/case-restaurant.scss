@@ -2,21 +2,16 @@
 @import"../utils/animation.scss";
 @import"../utils/mixin.scss";
 .nom-restaurant{
-  
-  .repas{
-    margin-left:10px ;
-  }
-  
         .card{
             background-color: white;
             width: 100%;
             @include shadow-case;
-            margin-left: 10px;
+            
             display: flex;
             align-items: center;
             margin-bottom: 20px;
             border-radius: 20px;
-            
+            cursor: pointer;
     
             .price{font-weight: bold;
              display: flex;
@@ -54,6 +49,7 @@
             transition: 1s;
             border-bottom-right-radius: 20px;
             border-top-right-radius: 20px;
+            
           }
           .fa-check-circle{
             font-size:xx-large;
