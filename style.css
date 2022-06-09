@@ -68,6 +68,8 @@ a {
   transform: scale(1.3);
   background-image: linear-gradient(#FF79DA, #9356DC);
   background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .nom-restaurant .fa-heart {
