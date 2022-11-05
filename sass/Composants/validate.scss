@@ -1,0 +1,21 @@
+@import"../utils/colors.scss";
+.menu__card:hover{
+    .validate{display: flex;
+      background-color: $vert-claire;
+      justify-content: right;
+      text-align: right;
+      transition: 1s;
+      border-bottom-right-radius: 20px;
+      border-top-right-radius: 20px;
+      padding: 0 13px;
+      height: 77px;
+    } 
+    .fa-check-circle{
+      font-size:xx-large;
+      color: white;
+      animation: spin 1s ease;
+      @include center;
+     
+    }
+    
+  }

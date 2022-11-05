@@ -1,23 +1,42 @@
 @import"../utils/colors.scss";
+
 .fa-heart{position: absolute;
     font-size: 25px;
     cursor: pointer;
+   
 }
-.coeur{
-  color: transparent;
+.coeur-invisible{
+       opacity: 0;
+       color: transparent;
+       background-image: linear-gradient($rose,$violet);
+    background-clip: text;
+       -webkit-background-clip: text;
+       
 }
-    .fa-heart:hover{
-        transition: 2s;
-        transform:scale(1.3) ;       
-         background-image: linear-gradient($rose,$violet);
-         background-clip: text;
-         -webkit-background-clip: text;
-         color: transparent;
+// fas coeur plein
+.coeur-invisible:hover{
+      opacity: 1;
+      transition: all 2s ;
+       
     }
+    .fa-heart:hover{
+background-image: linear-gradient($rose,$violet);
+    background-clip: text;
+       -webkit-background-clip: text;
+    }
+  
 
-.nom-restaurant{
+//coeau restaurant
+.restaurant__title{
   .fa-heart{
     margin-top: -50px;
-   margin-left: 82%;
+   margin-left: 85%;
 }
+}
+.restaurant__description{
+  .fa-heart{
+      right: 20px;
+      top: 175px;
+      
+  }
 }

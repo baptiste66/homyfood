@@ -25,4 +25,9 @@
        
     }
 }
-
+@for $i from 1 through 10 {
+    .menu__card.delay-#{$i} {
+     
+     animation: appear 1.5s*$i ;
+    }
+  }

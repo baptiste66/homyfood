@@ -1,32 +1,66 @@
 @import"../utils/colors.scss";
-.nom-restaurant{ background-color: #f6f6f6;
-        img{display: block;
-            object-position: center;
-            width: 100%;
-            height: 300px;
-            
-        }
-        .page-restaurant{padding-bottom: 60px;
-            margin-top: -45px;
-            background-color: #f6f6f6;
-            border-radius: 30px 30px 0 0 ;
-            position: relative;
-            .titre-restaurant,.menu{
-                margin-left: 20px;
-                margin-right: 20px;
-            }
-            
-            .button-restaurant{text-align: center;
-                margin-top: 30px;
-            }
-    h1{padding-top: 40px;
+@import"../utils/mixin.scss";
+@import"../utils/colors.scss";
+@import"../utils/animation.scss";
+
+// menu du restaurant
+.menu{
+    .menu__card{
+        background-color: white;
+        width: 100%;
+        @include shadow-case;
         display: flex;
-        padding-right: 0px;
-       position: relative;
+        align-items: center;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        cursor: pointer;
+
+        .menu__card__price{font-weight: bold;
+         display: flex;
+         margin-left: auto;
+         @include center;
+         margin-right: 10px;
+        }
+        .fa-check-circle{
+          color: transparent;
+         
+        }
+        h3,.visible{
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+      .visible{
+        margin-top: -10px;
+      }
+        .menu__card__description{
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          margin-top: -4px;
+          margin-bottom: -4px;
+         margin-left: 10px;
+        }
     }
-}}
-.repas h3{font-weight: 400;
-    text-transform: uppercase;
-box-shadow:0px 5px 0px 0px $vert-claire ;
-width: 50px;
-}
+    
+    @media ( min-width:950px ){
+     
+          .menu__dish{display: flex;
+          
+          .entree,.plat,.dessert{
+            padding-right: 20px;
+            grid-template-columns: repeat(1, 0);
+            grid-auto-rows: 100px;
+            width: 100%;
+            text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+          
+          } 
+        }
+    }
+    
+    }  
+ .entree,.plat,.dessert{
+        padding-top: 20px;
+      }

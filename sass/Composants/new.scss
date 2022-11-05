@@ -1,4 +1,5 @@
-.new::before{
+@import"../utils/colors.scss";
+.card-new::before{
     background-color:$vert-claire;
     color: #1c9c7c;
     display: grid;

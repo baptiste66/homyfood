@@ -1,6 +1,6 @@
 @import"../utils/mixin.scss";
 @import"../utils/colors.scss";
-.case-acceuil{
+.functioning__text{
     display: flex;
     width: 80%;
     height: 70px;
@@ -13,19 +13,16 @@
     align-items: center;
     cursor: pointer;
 }
-.fonctionnement{margin-top: 50px;
+.functioning{margin-top: 50px;
     padding-bottom: 60px;
-    h2{
-        margin-left: 35px;
-    }
 }
-.all-menu{display: flex;
+.functioning__block{display: flex;
     flex-direction: column;
 
-    .step {display: flex;
+    .functioning__box{display: flex;
         @include center;
     
-    span {display: flex;
+    .number {display: flex;
         margin-left: -10px;
         background-color:$violet;
         border-radius: 100%;
