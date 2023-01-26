@@ -151,6 +151,11 @@ footer .fa-handshake-angle {
     transform: rotate(0);
   }
 }
+@keyframes loader {
+  to {
+    visibility: hidden;
+  }
+}
 @keyframes appear {
   0% {
     opacity: 0;
@@ -159,48 +164,43 @@ footer .fa-handshake-angle {
     opacity: 1;
   }
 }
-@keyframes loader {
-  to {
-    visibility: hidden;
-  }
-}
-.menu__card.delay-1 {
+.delay-1 {
   animation: appear 1.5s;
 }
 
-.menu__card.delay-2 {
+.delay-2 {
   animation: appear 3s;
 }
 
-.menu__card.delay-3 {
+.delay-3 {
   animation: appear 4.5s;
 }
 
-.menu__card.delay-4 {
+.delay-4 {
   animation: appear 6s;
 }
 
-.menu__card.delay-5 {
+.delay-5 {
   animation: appear 7.5s;
 }
 
-.menu__card.delay-6 {
+.delay-6 {
   animation: appear 9s;
 }
 
-.menu__card.delay-7 {
+.delay-7 {
   animation: appear 10.5s;
 }
 
-.menu__card.delay-8 {
+.delay-8 {
   animation: appear 12s;
 }
 
-.menu__card.delay-9 {
+.delay-9 {
   animation: appear 13.5s;
 }
 
-.menu__card.delay-10 {
+.delay-10 {
   animation: appear 15s;
 }
 
@@ -360,9 +360,6 @@ footer .fa-handshake-angle {
   margin-right: 20px;
 }
 
-/*******/
-/*card restaurant index*/
-/*******/
 .restaurant {
   background-color: #f6f6f6;
   padding-top: 20px;

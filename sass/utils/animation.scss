@@ -1,4 +1,4 @@
-
+// rotation du logo valider
 @keyframes spin{
     0%{
         transform: rotate(-380deg);
@@ -7,13 +7,7 @@
         transform: rotate(0);
     }
 }
-@keyframes appear{
-    0%{
-        opacity: 0;
-    }
-    100%{opacity: 1;
-    }
-}
+
 
 @keyframes loader{
     to{
@@ -25,9 +19,18 @@
        
     }
 }
+
+// apparition des plats l'un après l'autre
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+    100%{opacity: 1;
+    }
+}
+
 @for $i from 1 through 10 {
-    .menu__card.delay-#{$i} {
-     
+    .delay-#{$i} {
      animation: appear 1.5s*$i ;
     }
-  }
+ }
