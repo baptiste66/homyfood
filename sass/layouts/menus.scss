@@ -4,7 +4,27 @@
 @import"../utils/animation.scss";
 
 // menu du restaurant choisis
-.menu{
+.menu{background-color: #f6f6f6;
+  .menu-block{padding-bottom: 60px;
+    margin-top: -45px;
+    border-radius: 30px 30px 0 0 ;
+    position: relative;
+    .menu-card__title,.menu-dish{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    //entrer plat dessert
+    .menu-card__title h3{font-weight: 400;
+                text-transform: uppercase;
+                box-shadow:0px 5px 0px 0px $vert-claire ;
+                width: 50px;
+                }
+    .button-restaurant{text-align: center;
+        margin-top: 30px;
+    }
+    .fa-check-circle{
+          color: transparent;
+        }
     .menu-card{
         background-color: white;
         width: 100%;
@@ -15,16 +35,15 @@
         border-radius: 20px;
         cursor: pointer;
 
+        
+
         .menu-card__price{font-weight: bold;
          display: flex;
          margin-left: auto;
          @include center;
          margin-right: 10px;
         }
-        .fa-check-circle{
-          color: transparent;
-         
-        }
+        
         h3,.visible{
           text-overflow: ellipsis;
           white-space: nowrap;
@@ -40,8 +59,12 @@
           margin-top: -4px;
           margin-bottom: -4px;
          margin-left: 10px;
-        }
-    }
+        }}
+    }}
+
+  .entree,.dish,.dessert{
+    padding-top: 20px;
+  }
     
     @media ( min-width:950px ){
      
@@ -60,7 +83,4 @@
     }
 }
 
-}  
-.entree,.dish,.dessert{
-    padding-top: 20px;
-  }
+
