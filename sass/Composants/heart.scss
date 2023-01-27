@@ -2,26 +2,22 @@
 
 .fa-heart{position: absolute;
     font-size: 25px;
-    cursor: pointer;
-   
+    cursor: pointer; 
 }
+
 .heart-invisible{
        opacity: 0;
-       color: transparent;
-       background-image: linear-gradient($rose,$violet);
-    background-clip: text;
-       -webkit-background-clip: text;
-       
+       color: transparent;      
 }
-// fas heart plein
+// fa heart plein
 .heart-invisible:hover{
       opacity: 1;
       transition: all 2s ;
-       
     }
     .fa-heart:hover{
 background-image: linear-gradient($rose,$violet);
     background-clip: text;
        -webkit-background-clip: text;
     }
+   
   

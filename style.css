@@ -202,10 +202,6 @@ footer .fa-handshake-angle {
   box-shadow: 0px 5px 0px 0px #99E2D0;
   width: 50px;
 }
-.menu .menu-block .button-restaurant {
-  text-align: center;
-  margin-top: 30px;
-}
 .menu .menu-block .fa-check-circle {
   color: transparent;
 }
@@ -243,6 +239,10 @@ footer .fa-handshake-angle {
   margin-top: -4px;
   margin-bottom: -4px;
   margin-left: 10px;
+}
+.menu .menu-block .button-restaurant {
+  text-align: center;
+  margin-top: 30px;
 }
 
 .entree, .dish, .dessert {
@@ -417,9 +417,6 @@ footer .fa-handshake-angle {
 .heart-invisible {
   opacity: 0;
   color: transparent;
-  background-image: linear-gradient(#FF79DA, #9356DC);
-  background-clip: text;
-  -webkit-background-clip: text;
 }
 
 .heart-invisible:hover {
