@@ -188,6 +188,10 @@ footer .fa-handshake-angle {
   border-radius: 30px 30px 0 0;
   position: relative;
 }
+.menu .menu-block .restaurant__title .fa-heart {
+  margin-top: -50px;
+  margin-left: 85%;
+}
 .menu .menu-block .menu-card__title, .menu .menu-block .menu-dish {
   margin-left: 20px;
   margin-right: 20px;
@@ -399,6 +403,10 @@ footer .fa-handshake-angle {
 .restaurant .restaurant-card .card .restaurant-card__description p {
   margin-top: -15px;
 }
+.restaurant .restaurant-card .card .restaurant-card__description .fa-heart {
+  right: 20px;
+  top: 175px;
+}
 
 .fa-heart {
   position: absolute;
@@ -423,16 +431,6 @@ footer .fa-handshake-angle {
   background-image: linear-gradient(#FF79DA, #9356DC);
   background-clip: text;
   -webkit-background-clip: text;
-}
-
-.restaurant__title .fa-heart {
-  margin-top: -50px;
-  margin-left: 85%;
-}
-
-.restaurant-card__description .fa-heart {
-  right: 20px;
-  top: 175px;
 }
 
 .localization {

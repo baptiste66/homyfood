@@ -9,12 +9,19 @@
     margin-top: -45px;
     border-radius: 30px 30px 0 0 ;
     position: relative;
+    .restaurant__title{
+      .fa-heart{
+        margin-top: -50px;
+       margin-left: 85%;
+    }
+    }
     .menu-card__title,.menu-dish{
         margin-left: 20px;
         margin-right: 20px;
     }
     //entrer plat dessert
-    .menu-card__title h3{font-weight: 400;
+    .menu-card__title
+       h3{font-weight: 400;
                 text-transform: uppercase;
                 box-shadow:0px 5px 0px 0px $vert-claire ;
                 width: 50px;
@@ -35,8 +42,6 @@
         border-radius: 20px;
         cursor: pointer;
 
-        
-
         .menu-card__price{font-weight: bold;
          display: flex;
          margin-left: auto;
@@ -45,17 +50,13 @@
         }
         
         h3,.visible{
-          text-overflow: ellipsis;
-          white-space: nowrap;
-          overflow: hidden;
+          @include text;
         }
       .visible{
         margin-top: -10px;
       }
         .menu-card__description{
-          text-overflow: ellipsis;
-          white-space: nowrap;
-          overflow: hidden;
+          @include text;
           margin-top: -4px;
           margin-bottom: -4px;
          margin-left: 10px;
@@ -75,9 +76,7 @@
         grid-template-columns: repeat(1, 0);
         grid-auto-rows: 100px;
         width: 100%;
-        text-overflow: ellipsis;
-      white-space: nowrap;
-      overflow: hidden;
+        @include text;
       
       } 
     }
