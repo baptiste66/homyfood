@@ -2,7 +2,7 @@
 @import"../utils/colors.scss";
 
 // section fonctionnement 
-.functioning__text{
+.functioning-box__text{
     display: flex;
     width: 80%;
     height: 70px;
@@ -18,13 +18,13 @@
 .functioning{margin-top: 50px;
     padding-bottom: 60px;
 }
-.functioning__block{display: flex;
+.functioning-block{display: flex;
     flex-direction: column;
 
-    .functioning__box{display: flex;
+    .functioning-box{display: flex;
         @include center;
     
-    .number {display: flex;
+    .functioning-box__number {display: flex;
         margin-left: -10px;
         background-color:$violet;
         border-radius: 100%;

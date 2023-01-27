@@ -5,7 +5,7 @@
 
 // menu du restaurant choisis
 .menu{
-    .menu__card{
+    .menu-card{
         background-color: white;
         width: 100%;
         @include shadow-case;
@@ -15,7 +15,7 @@
         border-radius: 20px;
         cursor: pointer;
 
-        .menu__card__price{font-weight: bold;
+        .menu-card__price{font-weight: bold;
          display: flex;
          margin-left: auto;
          @include center;
@@ -33,7 +33,7 @@
       .visible{
         margin-top: -10px;
       }
-        .menu__card__description{
+        .menu-card__description{
           text-overflow: ellipsis;
           white-space: nowrap;
           overflow: hidden;
@@ -45,22 +45,22 @@
     
     @media ( min-width:950px ){
      
-          .menu__dish{display: flex;
-          
-          .entree,.plat,.dessert{
-            padding-right: 20px;
-            grid-template-columns: repeat(1, 0);
-            grid-auto-rows: 100px;
-            width: 100%;
-            text-overflow: ellipsis;
-          white-space: nowrap;
-          overflow: hidden;
-          
-          } 
-        }
+      .menu-dish{display: flex;
+      
+      .entree,.dish,.dessert{
+        padding-right: 20px;
+        grid-template-columns: repeat(1, 0);
+        grid-auto-rows: 100px;
+        width: 100%;
+        text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      
+      } 
     }
-    
-    }  
- .entree,.plat,.dessert{
-        padding-top: 20px;
-      }
+}
+
+}  
+.entree,.dish,.dessert{
+    padding-top: 20px;
+  }

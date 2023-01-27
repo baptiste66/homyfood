@@ -5,7 +5,7 @@
     cursor: pointer;
    
 }
-.coeur-invisible{
+.heart-invisible{
        opacity: 0;
        color: transparent;
        background-image: linear-gradient($rose,$violet);
@@ -13,8 +13,8 @@
        -webkit-background-clip: text;
        
 }
-// fas coeur plein
-.coeur-invisible:hover{
+// fas heart plein
+.heart-invisible:hover{
       opacity: 1;
       transition: all 2s ;
        
@@ -33,7 +33,7 @@ background-image: linear-gradient($rose,$violet);
    margin-left: 85%;
 }
 }
-.restaurant__description{
+.restaurant-card__description{
   .fa-heart{
       right: 20px;
       top: 175px;

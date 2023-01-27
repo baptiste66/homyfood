@@ -2,7 +2,7 @@
 @import"../utils/colors.scss";
 
 //header accueil
-.logo__header{display: flex;
+.logo-header{display: flex;
 
  .logo__restaurant{
     @include center;
@@ -33,12 +33,12 @@
         height: 300px;
         
     }
-    .menu__block{padding-bottom: 60px;
+    .menu-block{padding-bottom: 60px;
         margin-top: -45px;
         background-color: #f6f6f6;
         border-radius: 30px 30px 0 0 ;
         position: relative;
-        .menu__card__title,.menu__dish{
+        .menu-card__title,.menu-dish{
             margin-left: 20px;
             margin-right: 20px;
         }
@@ -52,7 +52,7 @@ h1{padding-top: 40px;
    position: relative;
 }
 }}
-.menu__card__title h3{font-weight: 400;
+.menu-card__title h3{font-weight: 400;
 text-transform: uppercase;
 box-shadow:0px 5px 0px 0px $vert-claire ;
 width: 50px;

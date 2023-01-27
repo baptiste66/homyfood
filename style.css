@@ -12,7 +12,7 @@ body {
   margin: 0px;
 }
 
-h1, .logo__haeder, .logo__footer {
+h1, .logo__haeder, .logo-footer {
   font-family: "Shrikhand", cursive;
 }
 
@@ -25,10 +25,10 @@ h2 {
   margin-left: 35px;
 }
 
-.logo__header {
+.logo-header {
   display: flex;
 }
-.logo__header .logo__restaurant {
+.logo-header .logo__restaurant {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,7 +38,7 @@ h2 {
   margin-bottom: 10px;
   padding-left: 10px;
 }
-.logo__header .logo__restaurant img {
+.logo-header .logo__restaurant img {
   display: block;
   width: 100%;
   height: 100%;
@@ -63,36 +63,36 @@ h2 {
   width: 100%;
   height: 300px;
 }
-.menu .menu__block {
+.menu .menu-block {
   padding-bottom: 60px;
   margin-top: -45px;
   background-color: #f6f6f6;
   border-radius: 30px 30px 0 0;
   position: relative;
 }
-.menu .menu__block .menu__card__title, .menu .menu__block .menu__dish {
+.menu .menu-block .menu-card__title, .menu .menu-block .menu-dish {
   margin-left: 20px;
   margin-right: 20px;
 }
-.menu .menu__block .button-restaurant {
+.menu .menu-block .button-restaurant {
   text-align: center;
   margin-top: 30px;
 }
-.menu .menu__block h1 {
+.menu .menu-block h1 {
   padding-top: 40px;
   display: flex;
   padding-left: 30px;
   position: relative;
 }
 
-.menu__card__title h3 {
+.menu-card__title h3 {
   font-weight: 400;
   text-transform: uppercase;
   box-shadow: 0px 5px 0px 0px #99E2D0;
   width: 50px;
 }
 
-.round-violetRose {
+.round--violetRose {
   margin: 10px 0px;
   background-image: linear-gradient(#FF79DA, #9356DC);
   border-radius: 200px;
@@ -104,7 +104,7 @@ h2 {
   font-weight: 500;
   cursor: pointer;
 }
-.round-violetRose:hover {
+.round--violetRose:hover {
   opacity: 70%;
   box-shadow: 0px 5px 3px 2px rgb(114, 114, 114);
   transition: 800ms;
@@ -115,7 +115,7 @@ footer {
   padding-bottom: 20px;
   padding-top: 10px;
 }
-footer .logo__footer {
+footer .logo-footer {
   margin-left: 0px;
   font-size: larger;
 }
@@ -136,7 +136,7 @@ footer .fa-handshake-angle {
   padding-right: 9px;
 }
 @media (min-width: 990px) {
-  footer .fin {
+  footer .about {
     display: grid;
     grid-template-columns: repeat(4, 22%);
     justify-content: center;
@@ -204,7 +204,7 @@ footer .fa-handshake-angle {
   animation: appear 15s;
 }
 
-.menu .menu__card {
+.menu .menu-card {
   background-color: white;
   width: 100%;
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
@@ -214,7 +214,7 @@ footer .fa-handshake-angle {
   border-radius: 20px;
   cursor: pointer;
 }
-.menu .menu__card .menu__card__price {
+.menu .menu-card .menu-card__price {
   font-weight: bold;
   display: flex;
   margin-left: auto;
@@ -223,18 +223,18 @@ footer .fa-handshake-angle {
   align-items: center;
   margin-right: 10px;
 }
-.menu .menu__card .fa-check-circle {
+.menu .menu-card .fa-check-circle {
   color: transparent;
 }
-.menu .menu__card h3, .menu .menu__card .visible {
+.menu .menu-card h3, .menu .menu-card .visible {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
-.menu .menu__card .visible {
+.menu .menu-card .visible {
   margin-top: -10px;
 }
-.menu .menu__card .menu__card__description {
+.menu .menu-card .menu-card__description {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -243,10 +243,10 @@ footer .fa-handshake-angle {
   margin-left: 10px;
 }
 @media (min-width: 950px) {
-  .menu .menu__dish {
+  .menu .menu-dish {
     display: flex;
   }
-  .menu .menu__dish .entree, .menu .menu__dish .plat, .menu .menu__dish .dessert {
+  .menu .menu-dish .entree, .menu .menu-dish .dish, .menu .menu-dish .dessert {
     padding-right: 20px;
     grid-template-columns: repeat(1, 0);
     grid-auto-rows: 100px;
@@ -257,7 +257,7 @@ footer .fa-handshake-angle {
   }
 }
 
-.entree, .plat, .dessert {
+.entree, .dish, .dessert {
   padding-top: 20px;
 }
 
@@ -288,7 +288,7 @@ footer .fa-handshake-angle {
   margin-left: 10px;
 }
 
-.menu__card:hover .validate {
+.menu-card:hover .validate {
   display: flex;
   background-color: #99E2D0;
   justify-content: right;
@@ -299,7 +299,7 @@ footer .fa-handshake-angle {
   padding: 0 13px;
   height: 77px;
 }
-.menu__card:hover .fa-check-circle {
+.menu-card:hover .fa-check-circle {
   font-size: xx-large;
   color: white;
   animation: spin 1s ease;
@@ -308,7 +308,7 @@ footer .fa-handshake-angle {
   align-items: center;
 }
 
-.functioning__text {
+.functioning-box__text {
   display: flex;
   width: 80%;
   height: 70px;
@@ -327,17 +327,17 @@ footer .fa-handshake-angle {
   padding-bottom: 60px;
 }
 
-.functioning__block {
+.functioning-block {
   display: flex;
   flex-direction: column;
 }
-.functioning__block .functioning__box {
+.functioning-block .functioning-box {
   display: flex;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.functioning__block .functioning__box .number {
+.functioning-block .functioning-box .functioning-box__number {
   display: flex;
   margin-left: -10px;
   background-color: #9356DC;
@@ -349,13 +349,13 @@ footer .fa-handshake-angle {
   align-items: center;
   color: white;
 }
-.functioning__block .functioning__box div:hover {
+.functioning-block .functioning-box div:hover {
   opacity: 70%;
   box-shadow: 0px 5px 3px 2px rgb(114, 114, 114);
   transition: 800ms;
   background-color: white;
 }
-.functioning__block .functioning__box i {
+.functioning-block .functioning-box i {
   margin-left: 30px;
   margin-right: 20px;
 }
@@ -365,40 +365,40 @@ footer .fa-handshake-angle {
   padding-top: 20px;
   padding-bottom: 60px;
 }
-.restaurant .restaurant__card {
+.restaurant .restaurant-card {
   margin: 0px 20px;
   gap: 50px;
   display: grid;
 }
 @media (min-width: 767px) {
-  .restaurant .restaurant__card {
+  .restaurant .restaurant-card {
     grid-template-columns: repeat(2, 45%);
     justify-content: center;
   }
 }
-.restaurant .restaurant__card .card {
+.restaurant .restaurant-card .card {
   position: relative;
   border-radius: 20px;
   box-shadow: 0px 5px 3px 2px rgb(207, 207, 207);
 }
-.restaurant .restaurant__card .card:hover {
+.restaurant .restaurant-card .card:hover {
   opacity: 70%;
   box-shadow: 0px 5px 3px 2px rgb(114, 114, 114);
   transition: 800ms;
 }
-.restaurant .restaurant__card .card img {
+.restaurant .restaurant-card .card img {
   width: 100%;
   height: 150px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-.restaurant .restaurant__card .card .restaurant__description {
+.restaurant .restaurant-card .card .restaurant-card__description {
   margin-left: 15px;
 }
-.restaurant .restaurant__card .card .restaurant__description h3 {
+.restaurant .restaurant-card .card .restaurant-card__description h3 {
   margin-top: 10px;
 }
-.restaurant .restaurant__card .card .restaurant__description p {
+.restaurant .restaurant-card .card .restaurant-card__description p {
   margin-top: -15px;
 }
 
@@ -408,7 +408,7 @@ footer .fa-handshake-angle {
   cursor: pointer;
 }
 
-.coeur-invisible {
+.heart-invisible {
   opacity: 0;
   color: transparent;
   background-image: linear-gradient(#FF79DA, #9356DC);
@@ -416,7 +416,7 @@ footer .fa-handshake-angle {
   -webkit-background-clip: text;
 }
 
-.coeur-invisible:hover {
+.heart-invisible:hover {
   opacity: 1;
   transition: all 2s;
 }
@@ -432,7 +432,7 @@ footer .fa-handshake-angle {
   margin-left: 85%;
 }
 
-.restaurant__description .fa-heart {
+.restaurant-card__description .fa-heart {
   right: 20px;
   top: 175px;
 }
@@ -455,7 +455,7 @@ footer .fa-handshake-angle {
   font-size: larger;
 }
 
-.research__block {
+.research-block {
   padding: 1px;
   background-color: #f6f6f6;
   text-align: center;

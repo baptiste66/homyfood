@@ -2,7 +2,7 @@ footer{
     background-color: black;
     padding-bottom: 20px;
     padding-top: 10px;
-    .logo__footer{
+    .logo-footer{
         margin-left:0px;
         font-size:larger;
     }
@@ -24,7 +24,7 @@ footer{
         padding-right: 9px;
     }
     @media ( min-width:990px ){
-       .fin{ display: grid;
+       .about{ display: grid;
         grid-template-columns: repeat(4, 22%);
         justify-content: center;
         
