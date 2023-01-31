@@ -200,6 +200,7 @@ footer .fa-handshake-angle {
   text-transform: uppercase;
   box-shadow: 0px 5px 0px 0px #99E2D0;
   width: 50px;
+  margin-left: -10px;
 }
 .menu .menu-block .fa-check-circle {
   color: transparent;
@@ -218,9 +219,7 @@ footer .fa-handshake-angle {
   font-weight: bold;
   display: flex;
   margin-left: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: -20px;
   margin-right: 10px;
 }
 .menu .menu-block .menu-card h3, .menu .menu-block .menu-card .visible {
