@@ -179,12 +179,10 @@ footer .fa-handshake-angle {
   animation: appear 15s;
 }
 
-.menu {
-  background-color: #f6f6f6;
-}
 .menu .menu-block {
   padding-bottom: 60px;
   margin-top: -45px;
+  background-color: #f6f6f6;
   border-radius: 30px 30px 0 0;
   position: relative;
 }
