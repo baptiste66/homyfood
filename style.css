@@ -455,4 +455,15 @@ footer .fa-handshake-angle {
   padding-bottom: 30px;
 }
 
+.card-new::before {
+  background-color: #99E2D0;
+  color: #1c9c7c;
+  display: grid;
+  content: "Nouveau";
+  position: absolute;
+  padding: 5px;
+  right: 10px;
+  top: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
