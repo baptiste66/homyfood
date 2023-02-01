@@ -9,11 +9,12 @@
      margin-bottom: 20px;
     background-color: #f6f6f6;
     border-radius: 200px;
-    justify-content: left;
     list-style-type: none;
     @include shadow;
     align-items: center;
     cursor: pointer;
+    font-size: 15px;
+    
 }
 .functioning{margin-top: 50px;
     padding-bottom: 60px;
@@ -33,13 +34,22 @@
         @include center;
         color: white;
     }
+    div{
+        transition: all 700ms;
+    }
     div:hover{
         @include hover;
         background-color: white;
     }
         i{
-            margin-left: 30px;
-            margin-right: 20px;
+            margin-left: 15px;
+            margin-right: 12px;
         }
     }
+ }
+ @media ( min-width:767px ){
+
+    .functioning-box__text{
+        font-size: large;
+}
  }

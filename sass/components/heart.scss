@@ -3,23 +3,26 @@
 .fa-heart{position: absolute;
     font-size: 25px;
     cursor: pointer; 
+    transition: all 800ms;
 }
 
 .heart-invisible{
        opacity: 0;
-       color: transparent;      
+        color: transparent;
+        transition: all 800ms;
 }
 // fa heart plein
 .heart-invisible:hover{
       opacity: 1;
-      transition: all 2s ;
-      border: transparent;
+      transition: all 800ms ;
+      
     }
-    .fa-heart:hover{
-background-image: linear-gradient($violet,$rose);
-border: transparent;
+    .fa-heart:hover{transform: scale(1.1);
+        transition: transform 800ms;
+        background-image: linear-gradient($violet,$rose);
     background-clip: text;
     -webkit-background-clip: text;
     }
+    
    
   

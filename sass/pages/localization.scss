@@ -5,16 +5,26 @@
 
  .localization{
     display: flex;
-    padding: 1px;
+    padding: 10px;
     background-color: rgb(234, 234, 234);
     @include center;
      i{
-    padding-right: 20px;
     font-weight: bolder;
-    font-size:x-large;}
-     p{
+    font-size:large;
+    margin-top: 8px;
+    margin-right: 5px;
+    }
+     input{
     font-weight: 300;
-    font-size: larger;}
+    font-size: larger;
+    background-color: rgb(234, 234, 234);
+    text-decoration: none;
+    border: none;
+    margin-top: 10px;
+    height: 20px;
+    text-align: center;
+    width:170px;
+}
 }
 .research-block{
     padding: 1px;

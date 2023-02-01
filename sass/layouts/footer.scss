@@ -7,14 +7,18 @@ footer{
         font-size:larger;
         padding-bottom: 10px;
     }
-   
+   ul{
+    padding-left:0 ;
+    
+   }
     a{
         margin-top: 5px;
         color: white;
         display: block;
         padding-left: 20px;
-        width: 220px;
+        width: 200px;
     }
+
     a:hover{
         text-decoration: underline;
     }
@@ -25,7 +29,7 @@ footer{
         padding-right: 9px;
     }
     @media ( min-width:990px ){
-       .about{ display: grid;
+       ul {     display: grid;
         grid-template-columns: repeat(4, 22%);
         justify-content: center;
         

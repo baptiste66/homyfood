@@ -31,6 +31,6 @@
 
 @for $i from 1 through 10 {
     .delay-#{$i} {
-     animation: appear 1.5s*$i ;
+     animation: appear 700ms*$i ;
     }
  }

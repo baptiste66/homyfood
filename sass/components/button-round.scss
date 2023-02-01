@@ -12,6 +12,7 @@
     font-size: medium;
     font-weight: 500;
     cursor: pointer;
+    transition:all 700ms;
     &:hover{
         @include hover ;
     }

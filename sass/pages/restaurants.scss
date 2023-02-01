@@ -18,6 +18,7 @@
     .card{position: relative;
     border-radius: 20px;
     @include shadow;
+    transition: all 700ms;
     &:hover{
         @include hover;
     }
@@ -38,7 +39,7 @@
           margin-top: -15px;
       }
         .fa-heart{
-            right: 20px;
+            right: 25px;
             top: 175px;
             
         }

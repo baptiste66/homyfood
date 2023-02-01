@@ -3,14 +3,14 @@
 
 //header accueil
 .logo-header{display: flex;
-
+    align-items: center;
  .logo__restaurant{
+    margin-left: auto;
+    margin-right: auto;
     @include center;
-      margin-left: auto;
-      margin-right: auto;  
       margin-top: 10px;
       margin-bottom: 10px;
-      padding-left: 10px;
+      height: 30px;
       img{display: block;
             width: 100%;
             height: 100%;
@@ -22,7 +22,9 @@
 .acceuil{
     box-shadow: 0px 5px 3px 1px rgb(207, 207, 207);
     position: relative;
-    @include center;
+    
+    margin: 0px 0;
+    
 }
 
 //header restaurant
