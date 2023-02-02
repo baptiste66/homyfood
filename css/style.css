@@ -59,12 +59,6 @@ h2 {
   width: 100%;
   height: 300px;
 }
-.menu h1 {
-  padding-top: 40px;
-  display: flex;
-  padding-left: 30px;
-  position: relative;
-}
 
 .round--violetRose {
   margin: 10px 0px;
@@ -196,6 +190,7 @@ footer .fa-handshake-angle {
   margin-bottom: 0;
   font-family: "Shrikhand", cursive;
   font-weight: bold;
+  margin-top: -20px;
 }
 .menu .menu-block .restaurant__title .fa-heart {
   margin-top: -29px;
@@ -223,7 +218,7 @@ footer .fa-handshake-angle {
   cursor: pointer;
 }
 .menu .menu-block .menu-card .validate, .menu .menu-block .menu-card .fa-check-circle {
-  transition: all 1s;
+  transition: all 800ms;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -298,21 +293,20 @@ footer .fa-handshake-angle {
   border-top-right-radius: 20px;
   width: 0;
   color: transparent;
-  transition: color 2s;
 }
 
 .menu-card:hover .validate {
   display: flex;
   background-color: #99E2D0;
   text-align: right;
-  transition: padding 1s ease;
+  transition: padding 800ms ease;
   padding: 0 13px;
   width: 50px;
 }
 .menu-card:hover .fa-check-circle {
   font-size: xx-large;
   color: white;
-  animation: spin 1s ease;
+  animation: spin 800ms ease;
 }
 
 .functioning-box__text {

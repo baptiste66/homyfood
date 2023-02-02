@@ -16,6 +16,7 @@
         margin-bottom: 0;
         font-family: 'Shrikhand',cursive;
         font-weight: bold;
+        margin-top: -20px;
       }
       .fa-heart{
         margin-top: -29px;
@@ -44,7 +45,7 @@
         border-radius: 20px;
         cursor: pointer;
         .validate,.fa-check-circle{
-                  transition:all 1s ;
+                  transition:all 800ms ;
                   @include center;
                   
                 }

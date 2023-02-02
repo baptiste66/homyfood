@@ -8,21 +8,20 @@
       border-top-right-radius: 20px;
       width: 0;
       color: transparent;
-      transition: color 2s;
   }
 }
 .menu-card:hover{
     .validate{display: flex;
       background-color: $vert-claire;
       text-align: right;
-      transition: padding 1s ease;
+      transition: padding 800ms ease;
       padding: 0 13px;
       width: 50px;
     } 
     .fa-check-circle{
       font-size:xx-large;
       color: white;
-      animation: spin 1s ease;
+      animation: spin 800ms ease;
     }
     
   }
