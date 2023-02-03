@@ -25,12 +25,17 @@
     text-align: center;
     width:170px;
 }
+
 }
 .research-block{
     padding: 1px;
     background-color:#f6f6f6;
     text-align: center;
     padding-bottom: 30px;
+    .bold{
+        font-weight: bold;
+        font-size: 18px;
+    }
 }
 
 
